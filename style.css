@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #92BFB1;
+    text-align: center;
+}
+
+h1{
+    font-size: 5vmin;
+    color: #023424;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+    font-size: 10vmin;
+    color: rgb(159, 50, 50);
+    background-color: #ffffc5;
+}
+
+.box:hover:disabled{
+    cursor: no-drop;
+}
+
+#reset-btn, #new-game{
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #191913;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#msg{
+    color: #ffffc5;
+    font-size: 5vmin;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
